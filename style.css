@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: whitesmoke;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.logo {
+  width: 30px !important;
+  height: 30px !important;
+  object-fit: cover;
+}
+
+.img-fluid {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+}
+
+.card-body {
+  cursor: pointer;
+}
+
+.contact {
+  width: auto;
+  height: 380px;
+  background-color: rgba(236, 218, 218, 0.153) !important;
+}
+
+.link > a {
+  text-decoration: none;
+  color: whitesmoke;
+}
