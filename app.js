@@ -20,7 +20,11 @@ class Card extends React.Component {
           onClick={this.handleCardClick}
         >
           <div className="card-body">
-            <img src="/images/3.jpg" alt="" className="img-fluid img-top" />
+            <img
+              src="/images/3.jpg"
+              alt="Astronaute"
+              className="img-fluid img-top"
+            />
           </div>
         </div>
       </div>
@@ -111,10 +115,14 @@ class App extends React.Component {
             </div>
           </div>
         </nav>
-        <div className="container my-5">
+        <div className="container my-5 pt-5">
           <div className="row">
             <div className="col-md-6">
-              <img src="/images/1.png" alt="Image" className="img-fluid" />
+              <img
+                src="/images/1.png"
+                alt="Femme voilée"
+                className="img-fluid"
+              />
             </div>
             <div className="col-md-6 pt-5 mt-5">
               <p className="text-danger fw-bold">Hello, I'm Agetha</p>
@@ -131,7 +139,7 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container mt-5">
           <div className="row">
             <Card color="transparent" onCardClick={this.handleCardClick} />
             <Card color="secondary" onCardClick={this.handleCardClick} />
